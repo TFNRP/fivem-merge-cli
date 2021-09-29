@@ -1,0 +1,42 @@
+{
+  "name": "fivem-merge-cli",
+  "version": "0.0.1",
+  "description": "Command-line interface for FiveM merge",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "prepublishOnly": "npm run test && gen-esm-wrapper ./src/index.js ./src/index.mjs",
+    "test": "exit 0"
+  },
+  "bin": {
+    "vmerge": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TFNRP/fivem-merge-cli.git"
+  },
+  "keywords": [
+    "fivem",
+    "api",
+    "merge",
+    "manager",
+    "asset",
+    "cli"
+  ],
+  "author": "Reece Stokes <hagen@paw.bot>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/TFNRP/fivem-merge-cli/issues"
+  },
+  "homepage": "https://github.com/TFNRP/fivem-merge-cli#readme",
+  "dependencies": {
+    "args": "^5.0.1",
+    "fivem-merge": "github:TFNRP/fivem-merge"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
