@@ -1,6 +1,6 @@
 {
   "name": "fivem-merge-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Command-line interface for FiveM merge",
   "files": [
     "index.js"
