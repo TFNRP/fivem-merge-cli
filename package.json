@@ -6,9 +6,7 @@
     "index.js"
   ],
   "scripts": {
-    "lint": "eslint src",
-    "lint:fix": "eslint src --fix",
-    "prepublishOnly": "npm run test && gen-esm-wrapper ./src/index.js ./src/index.mjs",
+    "prepublishOnly": "npm run test",
     "test": "exit 0"
   },
   "bin": {
@@ -34,7 +32,7 @@
   "homepage": "https://github.com/TFNRP/fivem-merge-cli#readme",
   "dependencies": {
     "args": "^5.0.1",
-    "fivem-merge": "github:TFNRP/fivem-merge"
+    "fivem-merge": "^0.0.2"
   },
   "engines": {
     "node": ">=14.0.0"
