@@ -31,8 +31,9 @@
   },
   "homepage": "https://github.com/TFNRP/fivem-merge-cli#readme",
   "dependencies": {
-    "args": "^5.0.1",
-    "fivem-merge": "^0.0.3"
+    "chalk": "^4.1.2",
+    "fivem-merge": "^0.0.3",
+    "mri": "^1.2.0"
   },
   "engines": {
     "node": ">=14.0.0"
